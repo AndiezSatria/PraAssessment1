@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pra Assessment App</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="panjang">Panjang</string>
+    <string name="txt_luas">Luas = …</string>
+    <string name="hitung">Hitung</string>
+    <string name="keliling">Keliling = ...</string>
+    <string name="lebar">Lebar</string>
+    <string name="share">Share</string>
+    <string name="alas">Alas</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="my_name">Mohammad Andiez Satria Permana</string>
+    <string name="my_nim">6706184028</string>
+    <string name="my_class">D3IF-42-01</string>
+    <string name="about">About</string>
+</resources>

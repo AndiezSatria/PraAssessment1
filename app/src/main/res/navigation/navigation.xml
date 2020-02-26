@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.andiezsatria.praassessment.MainFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_mainFragment_to_persegiPanjangFragment"
+            app:destination="@id/persegiPanjangFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_segitigaFragment"
+            app:destination="@id/segitigaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/persegiPanjangFragment"
+        android:name="com.andiezsatria.praassessment.PersegiPanjangFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_persegi_panjang" />
+    <fragment
+        android:id="@+id/segitigaFragment"
+        android:name="com.andiezsatria.praassessment.SegitigaFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_segitiga" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.andiezsatria.praassessment.AboutFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_about" />
+</navigation>
